@@ -39,7 +39,7 @@ Unfourtanly, this meant I would have to opt for a prebuilt solution.
 
 ### Controller Selection
 
-Of the existing solutions, the Odrive 3.6 stood out for meeting the requirements. Others like ODESC 3.6 lack three shunt resistors.
+Of the existing solutions, the Odrive 3.6 stood out for meeting the requirements.
 
 This is also avaliable on Alibaba for far less than any other controller of its class.
 
