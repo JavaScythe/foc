@@ -10,7 +10,7 @@ Then correct torque and integrated sensors (Hall effect per phase and absolute e
 
 These are critical to this project because it involves operating the motor at low speeds and often from standstill, which the sensors improve the quality of the torque control.
 
-After a great long search, a well priced high power model was found on AliBaba. Now all that remained was a way to control this motor.
+After a great long search, a well priced high power model was found on AliBaba.
 
 ### Controller Build
 The quest to develop a reasonably priced 2 channel 48V 40A FOC controller
@@ -70,3 +70,10 @@ Simhub, however, doesn't support this out of the box. (It does support custom se
 Additionally, controlling ODrive native protocol from simhub's custom serial is impossible, since computing dynamic CRC and sequence number is not possible in SimHub command editor.
 
 The solution here is to have Simhub (supported) output data to UDP, receieve that in script to then communicate to ODrive via native usb protocol (binary over serial).
+
+In order to make full use of this hardware, road rumble (or other frequency effects) can also be implemented. In SimHub, the UDP output will be configured for N+2 axis, Torque right, Torque left, effect*n.
+
+Then, mimicing simhub's own bassshaker driver method, frequency for each effect is determined by its amplitude. The script does this calculation per frame and drives the motor at this frequency and amplitude.
+
+#### E-stop
+Such a vivacious design requires a safety feature. A button to pull nRST on the Odrive will stop the motor torque and restart the driver.
