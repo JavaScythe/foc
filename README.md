@@ -6,7 +6,7 @@ First, the correct motor type was selected based on requirements
 
 While exhibiting drawbacks like cogging torque (Update: ODrive can midigate this), BLDC PSMS was chosen for backdrivability and torque control. Specifically, the 48V model is chosen because of the lack of 220V main power in the room of operation.
 
-Then correct torque and integrated sensors (Hall effect per phase and absolute encoder)
+Then correct torque and integrated sensors (Hall effect per phase and quadrature encoder)
 
 These are critical to this project because it involves operating the motor at low speeds and often from standstill, which the sensors improve the quality of the torque control.
 
