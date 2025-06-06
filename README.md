@@ -97,3 +97,21 @@ It also disables many safety features like torque mode velocity limits, velocity
 
 #### E-stop
 Such a vivacious design requires a safety feature. A button to pull nRST on the Odrive will stop the motor torque and restart the driver.
+
+### Case revisited
+
+After reviewing the motor specifications again, I began to worry about the sheet power this thing could output, so I ran some FEM simulations to see if the mounts would even hold.
+
+Here is 100N on each holding screw to simulate the twisting motor (Not accurate but whatever)
+<img width="953" alt="image" src="https://github.com/user-attachments/assets/b50ee84f-df5d-4cae-948d-6fd1c5bf1c87" />
+
+With additonal part
+<img width="972" alt="image" src="https://github.com/user-attachments/assets/22eb44dc-18c8-494a-8e9a-b9cddd102c32" />
+
+Upgraded support
+<img width="1048" alt="image" src="https://github.com/user-attachments/assets/fbb7ef53-e22a-4772-bebf-8e9f2ceb633c" />
+
+<img width="439" alt="image" src="https://github.com/user-attachments/assets/1a9eb322-4750-47f9-bfe7-6c599f5b1d1d" />
+
+Completed holder
+
