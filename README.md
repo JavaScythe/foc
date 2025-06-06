@@ -1,10 +1,10 @@
 # foc
-Two motor 48V 20+20A FOC controller for sim racing seatbelt tensioner
+Hyper realistic Sim racing seatbelt tensioner with two motor 48V 20+20A FOC controller that blows commercial 1300$ solutions out of the water
 
 ### Motor Selection
 First, the correct motor type was selected based on requirements
 
-While exhibiting drawbacks like cogging torque, BLDC PSMS was chosen for backdrivability and torque control. Specifically, the 48V model is chosen because of the lack of 220V main power in the room of operation.
+While exhibiting drawbacks like cogging torque (Update: ODrive can midigate this), BLDC PSMS was chosen for backdrivability and torque control. Specifically, the 48V model is chosen because of the lack of 220V main power in the room of operation.
 
 Then correct torque and integrated sensors (Hall effect per phase and absolute encoder)
 
@@ -115,3 +115,9 @@ Upgraded support
 
 Completed holder
 
+### Final BOM
+2x Motor: 120$
+1x Odrive 3.6: 60$
+Shipping for above: 30+X-20=10
+PSU: 2kW 40A 48V MINIMUM + Shipping: easily 100
+Belt: 20$, aliexpress, 2-3In four point
