@@ -75,5 +75,25 @@ In order to make full use of this hardware, road rumble (or other frequency effe
 
 Then, mimicing simhub's own bassshaker driver method, frequency for each effect is determined by its amplitude. The script does this calculation per frame and drives the motor at this frequency and amplitude.
 
+#### han.c design choices
+
+- Asncy USB for minimal latency
+- 1KHz control loop for rumble effects
+- 2x (expandable) rumble effect combine
+- Debug mode for latency debugging
+- Precalculated CRC8/16 for Odrive native spec
+
+Currently there can be up to 1ms where a new torque is recieved and when it is implemented. This will probably not matter.
+
+This still uses the ODrive's CDC interface, which by default runs the ASCII protocol. This must be disabled.
+
+#### Calibration
+
+The motor has a built in differential quadrature encoder with index (as well as hall effects, but those will not be used)
+
+The calibration file only has to be run once, then at start up it will find the index position (in direction of tensioning seatbelt)
+
+It also disables many safety features like torque mode velocity limits, velocity limits, and acceleration limits. If you fix NONE of these, at least fix torque mode velocity limit, because if the belt breaks and the motor is free to apply torque without resistance, it will speed up to its full power very quickly, swinging whatever belt remains on its axis at maximum speed.
+
 #### E-stop
 Such a vivacious design requires a safety feature. A button to pull nRST on the Odrive will stop the motor torque and restart the driver.
