@@ -72,5 +72,6 @@ for i in range(3):
 odrv0.axis0.controller.input_torque = 0
 print("Torque test complete.")
 print("Saving configuration...")
+odrv0.config.usb_cdc_protocol = 0x0;
 odrv0.save_configuration()
 print("Done.")
