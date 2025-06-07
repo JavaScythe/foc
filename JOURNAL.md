@@ -1,4 +1,5 @@
-Note to reviewer: This is in the middle of exam season
+124 Hours total
+
 ### 5-14-25: Highway announced
 ### 5-18-25: Idea Inception
 
@@ -199,6 +200,3 @@ New final case design (remember, it will be mirrored and printed 2x)
 Now I wrote up a bunch of stuff, embellished the journal, and started the submittal process.
 
 3 Hours
-
-Note to reviewer: 124 Hours total
-
