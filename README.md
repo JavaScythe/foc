@@ -14,8 +14,11 @@ Specifically, it is high torque low latency that comes with its own software wit
 ### Pictures
 <img width="871" alt="image" src="https://github.com/user-attachments/assets/fd24078c-7eda-412f-b3bf-4458b2b29530" />
 <img width="512" alt="image" src="https://github.com/user-attachments/assets/4126b551-9d00-4ced-91f4-ee477461be12" />
-<img src="https://github.com/user-attachments/assets/d7522252-f2dd-4b29-ad38-0a411a6906dd" />
+<img width="689" alt="image" src="https://github.com/user-attachments/assets/3807210a-0c5f-4480-95c9-0d5768aeec7f" />
 <img src="https://github.com/user-attachments/assets/569aa01d-482b-4685-8117-8846fb24d62e" />
+<img width="512" alt="image" src="https://github.com/user-attachments/assets/b719a08c-b606-4afc-beac-1800d23b50af" />
+<img width="524" alt="image" src="https://github.com/user-attachments/assets/f3d43c7e-b559-4677-9756-9efd31699fb8" />
+<img width="461" alt="image" src="https://github.com/user-attachments/assets/6a9b4594-46ba-4a72-9a76-085db166bdbc" />
 <img src="https://github.com/user-attachments/assets/71d3c9e2-7b04-4390-9286-5b080857ff6c" />
 
 ### BOM
